@@ -19,7 +19,8 @@ End If
 MsgBox "It may take a few seconds to execute this script." & vbCrLf & vbCrLf & "Click 'OK' button and wait for the prompt of 'Done.' to pop up!"
 
 Dim sEnvKey, sEnvVal, aJBProducts
-aJBProducts = Array("idea", "clion", "phpstorm", "goland", "pycharm", "webstorm", "webide", "rider", "datagrip", "rubymine", "appcode", "dataspell", "gateway", "jetbrains_client", "jetbrainsclient", "studio", "devecostudio")
+aJBProducts = Array("idea", "clion", "phpstorm", "goland", "pycharm", "pycharm64.exe", "webstorm", "webide", "rider", "datagrip", "rubymine", "appcode", "dataspell", "gateway", "jetbrains_client", "jetbrains_client64.exe", "jetbrainsclient", "studio", "devecostudio")
+' adding: pycharm64.exe + jetbrains_client64.exe
 
 Set re = New RegExp
 re.Global     = True
